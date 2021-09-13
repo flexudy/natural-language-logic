@@ -1,2 +1,2 @@
 # natural-language-logic
-Perform logic-like operations on text.
+Perform logic-like operations on multilingual text.
