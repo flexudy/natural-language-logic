@@ -8,6 +8,7 @@ def infer_concepts_by_example(terms: List[str], language: Optional[str] = None) 
     concepts = concept_inference_machine.infer_concepts(terms, language=language)
 
     print("Language: {0}".format(language))
+
     print("_________________")
 
     print(concepts)
@@ -16,14 +17,13 @@ def infer_concepts_by_example(terms: List[str], language: Optional[str] = None) 
 
 
 def infer_english_concepts() -> None:
-    terms = ["five euros", "cough", "economics and sociology", "party", "public company"]
+    terms = ["snake", "door", "economics and sociology", "chair", "public company"]
 
     infer_concepts_by_example(terms, "en")
 
 
 def infer_german_concepts() -> None:
-    terms = ["Ich bin in Deutschland geboren", "McDonald", "Konglomerat in Zusammenhang mit Firmenstruktur",
-             "Finanzdienstleistung", "Mietvertrag"]
+    terms = ["Deutschland", "McDonald", "Firmenstruktur", "Finanzdienstleistung", "Mietvertrag"]
 
     infer_concepts_by_example(terms, "de")
 
@@ -35,7 +35,7 @@ def infer_french_concepts() -> None:
 
 
 def infer_unknown_language_concepts() -> None:
-    terms = ["Imaginary Airways", "Freundschaft ist wichtig", "Voiture", "schöne Blumen", "Ordinateur"]
+    terms = ["Imaginary Airways", "Freundschaft", "Voiture", "schöne Blumen", "Ordinateur"]
 
     infer_concepts_by_example(terms)
 
