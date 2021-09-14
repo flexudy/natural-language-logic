@@ -32,7 +32,7 @@ How awesome would that be? 💡
 
 ### Usage
 
-No library should anyone suffer. Especially not if it is built on top of **HF Transformers**.
+No library should anyone suffer. Especially not if it is built on top of 🤗 **HF Transformers**.
 
 
 Go to the [Github repo](https://github.com/flexudy/natural-language-logic)
@@ -58,7 +58,7 @@ Output:
 
 ```{<br/>'cat': ['mammal', 'animal'], <br/> 'dog': ['hound', 'animal'], <br/>'economics and sociology': ['both fields of study'], <br/>'public company': ['company']<br/>}```
 
-### How was it trained?``
+### How was it trained?
 
 1. Using Google's T5-base and T5-small. Both models are released on the Hugging Face Hub.
 2. T5-base was trained for only two epochs while T5-small was trained for 5 epochs.
@@ -67,7 +67,7 @@ Output:
 
 1. I extracted and curated a fragment of [Conceptnet](https://conceptnet.io/)
 2. In particular, only the IsA relation was used.
-3. Note that one thing can belong to multiple concepts (which is pretty cool if you think about [Fuzzy Description Logics](https://lat.inf.tu-dresden.de/~stefborg/Talks/QuantLAWorkshop2013.pdf)).
+3. Note that one term can belong to multiple concepts (which is pretty cool if you think about [Fuzzy Description Logics](https://lat.inf.tu-dresden.de/~stefborg/Talks/QuantLAWorkshop2013.pdf)).
 Multiple inheritances however mean some terms belong to so many concepts. Hence, I decided to randomly throw away some due to the **maximum length limitation**.
 
 ### Setup
