@@ -54,6 +54,14 @@ language = "en"
 # Predict concepts
 # You can also pass the batch_size=2 and the beam_size=4
 concepts = concept_inference_machine.infer_concepts(terms, language=language)
+
+# {
+#    'cat': ['mammal', 'animal'], 
+#    'dog': ['hound', 'animal'], 
+#    'economics and sociology': ['both fields of study'], 
+#    'public company': ['company']
+# }
+
 ```
 
 Output:
