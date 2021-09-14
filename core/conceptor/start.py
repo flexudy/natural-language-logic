@@ -6,7 +6,7 @@ from core.conceptor.resource_management.resource_helper import ResourceHelper
 class FlexudyConceptInferenceMachineFactory:
 
     @staticmethod
-    def get_concept_inference_machine(path_to_model: str = "flexudy-conceptor-t5-base") -> ConceptInferenceMachine:
+    def get_concept_inference_machine(path_to_model: str = "flexudy/conceptor-t5-base") -> ConceptInferenceMachine:
         resource_helper = ResourceHelper(path_to_model)
 
         concept_inference_machine = T5ConceptorService(resource_helper)
