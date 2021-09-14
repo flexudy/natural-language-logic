@@ -1,4 +1,4 @@
-# Flexudy's Conceptor: Towards Neuro-Symbolic Language Understanding
+# Towards Neuro-Symbolic Language Understanding
 
 ![alt text](https://www.flexudy.com/wp-content/uploads/2021/09/conceptor.png "Flexudy's conceptor")
 
@@ -37,7 +37,7 @@ No library should anyone suffer. Especially not if it is built on top of 🤗 **
 
 Go to the [Github repo](https://github.com/flexudy/natural-language-logic)
 ```python
-from core.conceptor.start import FlexudyConceptInferenceMachineFactory
+from flexudy.conceptor.start import FlexudyConceptInferenceMachineFactory
 
 # Load me only once
 concept_inference_machine = FlexudyConceptInferenceMachineFactory.get_concept_inference_machine()

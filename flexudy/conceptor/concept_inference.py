@@ -1,4 +1,4 @@
-from core.conceptor.conceptor_service.conceptor_service import ConceptorService
+from flexudy.conceptor.conceptor_service.conceptor_service import ConceptorService
 from typing import List, Optional, Dict
 
 

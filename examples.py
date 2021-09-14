@@ -1,4 +1,4 @@
-from core.conceptor.start import FlexudyConceptInferenceMachineFactory
+from flexudy.conceptor.start import FlexudyConceptInferenceMachineFactory
 from typing import List, Optional
 
 

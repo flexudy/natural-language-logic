@@ -1,6 +1,6 @@
-from core.conceptor.concept_inference import ConceptInferenceMachine
-from core.conceptor.conceptor_service.t5_conceptor_service import T5ConceptorService
-from core.conceptor.resource_management.resource_helper import ResourceHelper
+from flexudy.conceptor.concept_inference import ConceptInferenceMachine
+from flexudy.conceptor.conceptor_service.t5_conceptor_service import T5ConceptorService
+from flexudy.conceptor.resource_management.resource_helper import ResourceHelper
 
 
 class FlexudyConceptInferenceMachineFactory:

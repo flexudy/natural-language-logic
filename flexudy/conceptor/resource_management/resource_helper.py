@@ -1,4 +1,3 @@
-import os
 from torch import cuda
 from typing import Tuple
 from transformers import T5TokenizerFast, T5ForConditionalGeneration

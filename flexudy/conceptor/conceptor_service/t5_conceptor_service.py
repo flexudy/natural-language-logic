@@ -1,6 +1,6 @@
 from typing import List, Optional, Dict, Tuple
-from core.conceptor.conceptor_service.conceptor_service import ConceptorService
-from core.conceptor.resource_management.resource_helper import ResourceHelper
+from flexudy.conceptor.conceptor_service.conceptor_service import ConceptorService
+from flexudy.conceptor.resource_management.resource_helper import ResourceHelper
 from langdetect import detect
 
 
