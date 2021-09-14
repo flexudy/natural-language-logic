@@ -36,6 +36,8 @@ No library should anyone suffer. Especially not if it is built on top of 🤗 **
 
 
 Go to the [Github repo](https://github.com/flexudy/natural-language-logic)
+
+
 ```python
 from flexudy.conceptor.start import FlexudyConceptInferenceMachineFactory
 
@@ -56,7 +58,9 @@ concepts = concept_inference_machine.infer_concepts(terms, language=language)
 
 Output:
 
-```{<br/>'cat': ['mammal', 'animal'], <br/> 'dog': ['hound', 'animal'], <br/>'economics and sociology': ['both fields of study'], <br/>'public company': ['company']<br/>}```
+```python
+{'cat': ['mammal', 'animal'], 'dog': ['hound', 'animal'], 'economics and sociology': ['both fields of study'], 'public company': ['company']}
+```
 
 ### How was it trained?
 
