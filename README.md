@@ -37,6 +37,7 @@ No library should anyone suffer. Especially not if it is built on top of 🤗 **
 
 Go to the [Github repo](https://github.com/flexudy/natural-language-logic)
 
+`pip install git+https://github.com/flexudy/natural-language-logic.git@v0.0.1`
 
 ```python
 from flexudy.conceptor.start import FlexudyConceptInferenceMachineFactory
