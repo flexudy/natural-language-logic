@@ -1,9 +1,10 @@
 from distutils.core import setup
+import setuptools
 
 setup(
     name='natural-language-logic',
     version='0.0.1',
-    packages=['natural-language-logic'],
+    packages=setuptools.find_packages(),
     url='https://flexudy.com',
     license='',
     author='Flexudy',
