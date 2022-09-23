@@ -16,6 +16,6 @@ setup(
                       "torch==1.9.0",
                       "transformers==4.7.0",
                       "sentencepiece==0.1.95",
-                      "protobuf==3.15.3",
+                      "protobuf==3.18.3",
                       "langdetect==1.0.9"]
 )
